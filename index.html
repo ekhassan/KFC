@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KFC</title>
+
+    <style>
+        body {
+            background: #000;
+            color: white;
+            padding: 0;
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .logo {
+            display: flex;
+            flex-direction: row;
+            margin-left: 10%;
+            width: 80%;
+        }
+
+        hr {
+            width: 80%;
+        }
+
+        .main {
+            display: flex;
+            width: 80%;
+            margin-left: 10%;
+            margin-top: 5%;
+        }
+
+
+        .deals,
+        .order {
+            border: 2px solid red;
+            width: 50%;
+        }
+
+        .orders {
+            margin-left: 2%;
+        }
+
+        h2 {
+            color: white;
+            margin: 2%;
+        }
+
+        td {
+            padding: 2%;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        li {
+            padding: 5px;
+        }
+
+        button
+        {
+            margin-left: 42%;
+            margin-top: 5%;
+            background-color: #E4002b;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        button:hover
+        {
+            background-color: #ac001f;
+        }
+
+        .footer {
+            margin-top: 5%;
+            display: flex;
+            width: 80%;
+            justify-content: space-around;
+            margin-left: 10%;
+            padding: 20px;
+            background-color: #1c1816;
+        }
+
+        .gmap_canvas {
+            border-radius: 10px;
+        }
+       
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="head">
+            <div class="logo">
+                <img src="KFC-Logo-Red.png" alt="">
+                <h2>KFC</h2>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="main">
+            <div class="deals">
+                <ul>
+                    <h3>Browse Categories</h3>
+                    <li>Every Value</li>
+                    <li>Ala carte & Combos</li>
+                    <li>Signature Boxes</li>
+                    <li>Sharing</li>
+                    <li>Snacks & Beverages</li>
+                    <li>Midnight</li>
+                </ul>
+                <hr>
+                <ul>
+                    <h3>Top Selling</h3>
+                    <li><b>Krunch Burger</b><br>
+                        Crunchy chicken fillet, spicy mayo, lettuce, sandwiched between a sesame seed bun
+
+                        <br><b>Rs 250</b>
+                    </li>
+                    <li>
+                        <b>Krunch With Fries N Drink</b><br>
+                        Krunch + 1 regular Fries + 1 regular Drink
+
+                        <br><b>Rs 470</b>
+                    </li>
+                    <li>
+                        <b>Krunch With Fries N Drink</b><br>
+                        Krunch + 1 regular Fries + 1 regular Drink
+
+                        <br><b>Rs 470</b>
+                    </li>
+                    <li>
+                        <b>Krunch With Fries N Drink</b><br>
+                        Krunch + 1 regular Fries + 1 regular Drink
+
+                        <br><b>Rs 470</b>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="order">
+                <div class="orders">
+                    <h3 style="text-align: center;">Top Selling</h3>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>Customer Name </td>
+                                <td> <input type="text" name="" id=""></td>
+                            </tr>
+                            <tr>
+                                <td>Table No.</td>
+                                <td><input type="text" name="" id=""></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <button>Order Confirm</button>
+            </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="contact">
+                <ul>
+                    <li style="font-weight: bold;">Contact</li>
+                    <li>03201234567</li>
+                </ul>
+            </div>
+            <div class="map">
+                <div class="mapouter">
+                    <div class="gmap_canvas"><iframe width="100%" height="100%" id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=wah&t=&z=10&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                            scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                            href="https://2yu.co">2yu</a><br>
+                        <style>
+                            .mapouter {
+                                position: relative;
+                                text-align: right;
+                                height: 100%;
+                                width: 100%;
+                            }
+                        </style><a href="https://embedgooglemap.2yu.co/">html embed google map</a>
+                        <style>
+                            .gmap_canvas {
+                                overflow: hidden;
+                                background: none !important;
+                                height: 100%;
+                                width: 100%;
+                            }
+                        </style>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
