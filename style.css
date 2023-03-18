@@ -1,0 +1,85 @@
+body {
+    background: #000;
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    width: 80%;
+}
+
+hr {
+    width: 80%;
+}
+
+.main {
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+
+.deals,
+.order {
+    
+    width: 50%;
+}
+
+.orders {
+    margin-left: 2%;
+}
+
+h2 {
+    color: white;
+    margin: 2%;
+}
+
+td {
+    padding: 2%;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 5px;
+}
+
+button
+{
+    margin-left: 42%;
+    margin-top: 5%;
+    background-color: #E4002b;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+}
+button:hover
+{
+    background-color: #ac001f;
+}
+
+.footer {
+    margin-top: 5%;
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    margin-left: 10%;
+    padding: 20px;
+    background-color: #1c1816;
+}
+
+.gmap_canvas {
+    border-radius: 10px;
+}
